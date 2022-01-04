@@ -1,38 +1,121 @@
 .App {
   text-align: center;
+  background-color: black;
+}
+#canvas-container{
+  height: 100vh;
+  width: 100vw;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoClass mesh{
+  width: 100px;
+  background-color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backgroundImage img{
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  z-index: 0;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contentDiv2{
+  position: absolute;
+  z-index: 10;
+  color:white;
+  top: 0;;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 2rem;
+}
+
+
+.contentDiv3s{
+  position: relative;
+  z-index: 10;
+  color:white;
+  /* top:10; */
+  bottom: 100;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: -35rem;
+}
+
+.blur{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.avatarBox{
+width: 40rem;
+
+}
+.avatarBox img{
+  width: 50%;
+  border: 5px solid red;
+  border-radius: 2px;
+  margin-top: -5rem;
+}
+.contentDiv3{
   color: white;
+  margin-left: 10vw;
+  margin-top: 20vh;
+  text-align: left;
+  width: 25rem;
+  }
+.flex{
+display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.contentContainer3{
+  position: relative;
+  /* top: 0;; */
+  margin-top: -30rem;
+  margin-left: 6rem;
+}
+.contentContainer3 h1{
+font-size: 52px;
+font-family: Avalors;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Page4MainDiv{
+  width: 100vw;
+  height: 100vh;
+}
+.AvatarContainer{
+  margin-left: 30%;
+}
+.AvatarContainer img{
+max-width: 40%;
+z-index: 10;
+}
+#lady{
+  margin-left: -23rem;
+  height: 80%;
+  z-index: 10;
+}
+.contentbox4{
+  color: white;
+  margin-top: 10rem;
+  max-width: 40%;
+  margin-left: 20rem;
+}
+
+.equilizerDiv{
+  width: 100vw;
+}
+.equilizerDiv img{
+  width: 100%;
+  /* margin-left: -20rem; */
+  margin-top: -15rem;
+}
+.gridwave {
+  
+  width: 100vw;
+}
+.gridwave img{
+  margin-top: -20rem;
+  width: 100%;
+/* margin-left: -20rem; */
 }
